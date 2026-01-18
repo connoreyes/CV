@@ -18,6 +18,8 @@ Instead of relying on prebuilt functions, this project demonstrates how edge det
 ## Files
 - `lect2.py` – Sobel edge detection implemented from first principles
 - `learningnumpy.py` – Supporting NumPy practice
+- `liveedge.py` - Sobel edge detection from a live feed
+- `captureedge.py` - Sobel edge detection from a captured frame
 
 ## Next steps
 - Canny edge detection
