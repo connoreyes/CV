@@ -1,6 +1,6 @@
 # Computer Vision Fundamentals – Sobel Edge Detection
 
-This project implements **Sobel edge detection from scratch** to build a deep understanding of core computer vision concepts.
+This project implements **Sobel edge detection from scratch** to build a deep understanding of core computer vision concepts. The system logs signed image gradients (∂I/∂x, ∂I/∂y) from a live camera feed, preserving full edge orientation and strength for downstream perception tasks such as optical flow, SLAM, and obstacle detection.
 
 ## What this covers
 - Images as pixel intensity matrices
@@ -18,9 +18,7 @@ Instead of relying on prebuilt functions, this project demonstrates how edge det
 ## Files
 - `lect2.py` – Sobel edge detection implemented from first principles
 - `learningnumpy.py` – Supporting NumPy practice
-- `liveedge.py` - Sobel edge detection from a live feed
-- `captureedge.py` - Sobel edge detection from a captured frame
-
+- `edge_db.py` - Logs signed image gradients (∂I/∂x, ∂I/∂y)
 ## Next steps
 - Canny edge detection
 - Noise reduction and edge thinning
