@@ -1,0 +1,9 @@
+# Python cache
+__pycache__/
+
+# SQLite databases
+*.db
+CV/storage.db
+
+# practice
+lect2.py 
